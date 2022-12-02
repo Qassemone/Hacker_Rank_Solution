@@ -11,17 +11,7 @@ char z[100];
 scanf("%c\n",&c);
 scanf("%[^\n]%*c\n", &s);
 scanf("%[^\n]%*c", &z);
-/*for(i=0;i<100;i++)
-{
-    if(*z=='\n')
-    {
-        break;
-    }
-    else
-    {
-    scanf("%c",&z[i]);
-    }
-}*/
+
  printf("%c\n",c);
  for(i=0;i<100;i++)
  {
